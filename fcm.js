@@ -48,8 +48,13 @@ app.post('/api/fcm', function( request, response){
     // on how to define a message payload.
     var payload = {
   notification: {
-    title: "Help!!!!",
+    title: "Hey Buddy!!!!",
     body: "Please, help me "
+  },
+  data: {
+    stock: "GOOd",
+    open: "829.62",
+    close: "635.67"
   }
 };
 
